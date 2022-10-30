@@ -30,4 +30,4 @@ for i in range(2):
 df = pd.DataFrame(dic_cand)
 
 # exibir na tela os resultados
-display(df[['candidato', '%_votos_apurados']])
+print(df[['candidato', '%_votos_apurados']])
