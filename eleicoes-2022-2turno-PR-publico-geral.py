@@ -1,8 +1,8 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[58]:
-
+# AUTOR: Prof. Davidson Santana
+# CRIADO EM: 30 de outubro de 2022
 
 #importar as bibliotecas necessárias
 import requests
@@ -31,10 +31,3 @@ df = pd.DataFrame(dic_cand)
 
 # exibir na tela os resultados
 display(df[['candidato', '%_votos_apurados']])
-
-
-# In[ ]:
-
-
-
-
